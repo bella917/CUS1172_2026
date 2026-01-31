@@ -24,3 +24,11 @@
       text-align:center;
       font-family:"Garamond","Georgia","Times New Roman";
       }
+
+
+      .separator {
+      background-image: url('images/pattern.png'); 
+      background-repeat: repeat;       
+      height: 50px;                    
+      width: 100%;                      
+      }
