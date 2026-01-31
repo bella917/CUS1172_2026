@@ -50,8 +50,8 @@
       }
       
       #skills th {
-        background-color: #b0b3d1; 
-            color:black;
+        background-color: #112338; 
+            color:white;
         padding: 8px;
         text-align: left;
       }
@@ -63,8 +63,8 @@
       }
       
       #skills tr:nth-child(even) {
-        background-color: #dddeeb;
+        background-color: #203042;
       }
       #skills tr:nth-child(odd) {
-        background-color: #c9cad4;
+        background-color: #304052;
       }
