@@ -1,1 +1,15 @@
-
+      #menu {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      #menu li {
+        display: inline;
+        margin-right: 15px;
+      }
+      
+      #menu li a {
+        text-decoration: none;
+        color: blue;
+      }
