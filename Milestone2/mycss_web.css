@@ -9,6 +9,7 @@
       #menu li {
       display: inline;
       margin-right: 30px;
+      border:none;
       }
       
       #menu li a {
