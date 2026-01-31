@@ -37,18 +37,6 @@
             margin-bottom:10px;
       }
 
-      #about .about-content {
-        display: flex;
-        align-items: center;  
-        gap: 30px;             
-      }
-      
-      #about img {
-        border-radius: 8px;  
-            border-stye:double;
-            border-color: #30241d;
-      }
-
       #skills {
         width: 80%;          
         margin: 20px auto;   
