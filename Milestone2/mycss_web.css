@@ -29,7 +29,8 @@
       .separator {
       background-image: url('images/polkadots.png'); 
       background-size: cover;
-      background-repeat: repeat;       
+      background-repeat: repeat;   
+      background-position: center top;
       height: 75px;                    
       width: 100%;   
       }
