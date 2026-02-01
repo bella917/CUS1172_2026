@@ -38,13 +38,6 @@
             margin-bottom:10px;
       }
 /*-----------------------------------------*/
-      #education {
-      display: flex;
-      gap: 30px;
-      width: 900px;
-      margin: 40px auto;
-      }
-      
       #summary{
       flex: 1;
       padding: 20px;
