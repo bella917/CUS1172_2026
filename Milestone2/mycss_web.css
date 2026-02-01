@@ -66,3 +66,41 @@
             color:white;
       }
 
+#favs {
+      max-width:900px;
+      margin:40px auto;
+      padding:20px;
+}
+
+#favs h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-family:"Garamond","Georgia","Times New Roman";
+}
+
+.fav-item {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #e8dac3;
+      border-radius: 12px;
+      border-type: dotted;
+      border-color: #e8dac3;
+}
+
+.fav-item p {
+      width: 250px;
+      font-size: 10;
+      font-family:"Garamond","Georgia","Times New Roman";
+}
+
+.fav-item iframe {
+      width: 500px;
+      height: 280px;
+      border-radius: 10px;
+      border-style: dotted;
+      border-color: #e8dac3;
+}
+
