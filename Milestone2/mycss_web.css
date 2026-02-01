@@ -165,16 +165,16 @@
       align-items: center;
       gap: 25px;
       padding: 20px;
-      background-color: #e8dac3;
+      background-color: #80597c;
       border-radius: 12px;
-      border-type: dotted;
-      border-color: #e8dac3;
+
 }
 
 .fav-item p {
       width: 250px;
       font-size: 10;
       font-family:"Garamond","Georgia","Times New Roman";
+      color: white;
 }
 
 .fav-item iframe {
