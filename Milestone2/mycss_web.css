@@ -47,24 +47,22 @@
       flex-wrap: wrap;     
       }
       #summary{
-      display: inline-block;    
-      vertical-align: top;      
-      width: 48%;               
+      flex: 1;                             
       padding: 20px;
       border-radius: 12px;
       font-family: "Garamond","Georgia","Times New Roman";
       color: white;
+      box-sizing: border-box;
       background-color: #7a614b;
       }
 
       #edu {
-      display: inline-block;    
-      vertical-align: top;      
-      width: 48%;               
+      flex: 1;                             
       padding: 20px;
       border-radius: 12px;
       font-family: "Garamond","Georgia","Times New Roman";
       color: white;
+      box-sizing: border-box;
       background-color: #806b59;
       }
 
@@ -167,7 +165,7 @@
       align-items: center;
       gap: 25px;
       padding: 20px;
-      background-color: #80597c;
+      background-color: #8c748a;
       border-radius: 12px;
 
 }
