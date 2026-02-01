@@ -70,23 +70,24 @@
 /*----------------------------*/
 
 .interests-data {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: #e8dac3;
-  border-radius: 12px;
-  font-family: "Garamond","Georgia","Times New Roman";
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: ##497034;
+      text-color: white;
+      border-radius: 12px;
+      font-family: "Garamond","Georgia","Times New Roman";
 }
 
 .interests-data ul {
-  list-style-position: inside;
-  padding: 0;
+      list-style-position: inside;
+      padding: 0;
 }
 
 .interests-data li {
-  margin-bottom: 12px;
-  font-size: 18px;
-  line-height: 1.4;
+      margin-bottom: 12px;
+      font-size: 18px;
+      line-height: 1.4;
 }
 
 /* ----------------------- */
