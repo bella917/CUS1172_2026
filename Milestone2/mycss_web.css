@@ -39,21 +39,25 @@
       }
 /*-----------------------------------------*/
       #summary{
-      flex: 1;
+      display: inline-block;    
+      vertical-align: top;      
+      width: 48%;               
       padding: 20px;
-      background-color: #a17a57;
       border-radius: 12px;
       font-family: "Garamond","Georgia","Times New Roman";
       color: white;
+      background-color: #7a614b;
       }
 
       #edu {
-      flex: 1;
+      display: inline-block;    
+      vertical-align: top;      
+      width: 48%;               
       padding: 20px;
-      background-color: #9e7149;
       border-radius: 12px;
       font-family: "Garamond","Georgia","Times New Roman";
       color: white;
+      background-color: #806b59;
       }
 
 
