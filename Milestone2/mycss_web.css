@@ -37,6 +37,31 @@
             margin-top:10px;
             margin-bottom:10px;
       }
+
+/*------------------------------------*/
+
+.work-data {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #414f63;
+      color: white;
+      border-radius: 12px;
+      font-family: "Garamond","Georgia","Times New Roman";
+}
+
+.work-data ul {
+      list-style-position: inside;
+      padding: 0;
+}
+
+.work-data li {
+      margin-bottom: 12px;
+      font-size: 18px;
+      line-height: 1.4;
+}
+
+
 /* -------------------------------------*/
       #skills {
         width: 100%;          
