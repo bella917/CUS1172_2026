@@ -43,7 +43,7 @@
       display: flex;       
       gap: 30px;
       max-width: 900px;
-      margin: 40px auto;
+    /*  margin: 40px auto; */
       flex-wrap: wrap;     
       }
       #summary{
