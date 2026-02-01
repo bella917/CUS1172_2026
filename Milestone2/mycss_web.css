@@ -71,7 +71,7 @@
 #favs {
       max-width:100%;
       margin:40px auto;
-      padding:20px;
+      padding:0px;
 }
 
 #favs h2 {
@@ -84,6 +84,7 @@
 .fav-item {
       width: 800px;
       display: flex;
+      maring: 0 auto;
       align-items: center;
       gap: 25px;
       margin-bottom: 30px;
