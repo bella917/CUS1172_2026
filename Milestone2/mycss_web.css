@@ -38,6 +38,12 @@
             margin-bottom:10px;
       }
 /*-----------------------------------------*/
+
+      #education {
+      display: flex;       
+      gap: 30px;           
+      flex-wrap: wrap;     
+
       #summary{
       display: inline-block;    
       vertical-align: top;      
