@@ -248,25 +248,35 @@
 
 /* ---------------------------- */
 
-
 .feedback-data {
   max-width: 500px;
-  margin: 40px auto;
+  margin: 0 auto 40px auto;   
   padding: 25px;
-  background-color: #497034;
+  background-color: white;           
   text-align: center;
-  border-radius: 12px;
+  border-radius: 0 0 12px 12px; 
   font-family: "Garamond","Georgia","Times New Roman";
 }
 
-#feedback img {
-  margin-bottom: 15px;
+#feedback-image {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #497034;
+  text-align: center;
+  border-radius: 12px 12px 0 0; 
+}
+
+#feedback-image img {
+  margin-bottom: 10px;
 }
 
 .feedback-data input[type="submit"] {
+  margin-top: 10px;
   padding: 8px 20px;
   border: none;
   border-radius: 6px;
   background-color: #e8dac3;
+  font-family: inherit;
   cursor: pointer;
 }
