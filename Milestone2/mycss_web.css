@@ -42,7 +42,7 @@
 
       .about-data {
       max-width: 500px;
-      margin: 40px auto;
+      margin: 20px auto;
       padding: 20px;
       text-align: center;
       font-family: "Garamond","Georgia","Times New Roman";
@@ -55,7 +55,7 @@
       
       .about-data img {
       display: block;
-      margin: 15px auto 0;
+      margin: 10px auto 0;
       border-radius: 8px;
       }
 /*-----------------------------------------*/
