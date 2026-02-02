@@ -187,3 +187,87 @@
       border-color: #e8dac3;
 }
 
+/* -------------------------------- */
+
+#favweb {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #e8dac3;
+  border-radius: 12px;
+  font-family: "Garamond","Georgia","Times New Roman";
+}
+
+#favweb ul {
+  list-style: none;
+  padding: 0;
+}
+
+#favweb li {
+  background-color: #f6f1e8;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+#favweb a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #6b3e2e;
+}
+
+#favweb p {
+  margin-top: 5px;
+}
+
+/* -------------------------------- */
+
+#projects {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px dashed #80597c;
+  border-radius: 12px;
+  font-family: "Garamond","Georgia","Times New Roman";
+}
+
+#projects ol {
+  padding-left: 20px;
+}
+
+#projects li {
+  margin-bottom: 15px;
+}
+
+#projects a {
+  color: #80597c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* ---------------------------- */
+
+
+#feedback {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #497034;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  font-family: "Garamond","Georgia","Times New Roman";
+}
+
+#feedback img {
+  margin-bottom: 15px;
+}
+
+#feedback input[type="submit"] {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e8dac3;
+  cursor: pointer;
+}
