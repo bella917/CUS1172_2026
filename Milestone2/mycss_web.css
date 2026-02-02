@@ -1,6 +1,6 @@
       #menu {
             list-style-type: none;
-            padding: 20;
+            padding: 20px;
             margin: 0;
             text-align:center;
             background-color:#e8dac3;
@@ -23,7 +23,7 @@
             background-color:#e8dac3;
             text-align:center;
             font-family:"Garamond","Georgia","Times New Roman";
-            width: 100%
+            width: 100%;
       }
 
 
@@ -172,7 +172,7 @@
 
 .fav-item p {
       width: 250px;
-      font-size: 15;
+      font-size: 15px;
       font-family:"Garamond","Georgia","Times New Roman";
       color: white;
       text-align: center;
@@ -249,7 +249,7 @@
 /* ---------------------------- */
 
 
-#feedback {
+.feedback-data {
   max-width: 500px;
   margin: 40px auto;
   padding: 25px;
@@ -264,7 +264,7 @@
   margin-bottom: 15px;
 }
 
-#feedback input[type="submit"] {
+.feedback-data input[type="submit"] {
   padding: 8px 20px;
   border: none;
   border-radius: 6px;
