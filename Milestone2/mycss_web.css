@@ -258,7 +258,7 @@
   font-family: "Garamond","Georgia","Times New Roman";
 }
 
-#feedback-image {
+.feedback-data {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
@@ -267,7 +267,7 @@
   border-radius: 12px 12px 0 0; 
 }
 
-#feedback-image img {
+.feedback-data img {
   margin-bottom: 10px;
 }
 
