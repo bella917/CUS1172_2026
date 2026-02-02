@@ -250,21 +250,12 @@
 
 .feedback-data {
   max-width: 500px;
-  margin: 0 auto 40px auto;   
+  margin: 0 auto 40px auto;
   padding: 25px;
-  background-color: white;           
+  background-color: white;
   text-align: center;
-  border-radius: 0 0 12px 12px; 
+  border-radius: 12px;
   font-family: "Garamond","Georgia","Times New Roman";
-}
-
-.feedback-data {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #497034;
-  text-align: center;
-  border-radius: 12px 12px 0 0; 
 }
 
 .feedback-data img {
