@@ -189,7 +189,7 @@
 
 /* -------------------------------- */
 
-#favweb {
+.web-data {
   max-width: 900px;
   margin: 40px auto;
   padding: 20px;
@@ -198,32 +198,32 @@
   font-family: "Garamond","Georgia","Times New Roman";
 }
 
-#favweb ul {
+.web-data ul {
   list-style: none;
   padding: 0;
 }
 
-#favweb li {
+.web-data li {
   background-color: #f6f1e8;
   padding: 15px;
   margin-bottom: 15px;
   border-radius: 10px;
 }
 
-#favweb a {
+.web-data a {
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
   color: #6b3e2e;
 }
 
-#favweb p {
+.web-data p {
   margin-top: 5px;
 }
 
 /* -------------------------------- */
 
-#projects {
+.project-data {
   max-width: 900px;
   margin: 40px auto;
   padding: 20px;
@@ -232,15 +232,15 @@
   font-family: "Garamond","Georgia","Times New Roman";
 }
 
-#projects ol {
+.project-data ol {
   padding-left: 20px;
 }
 
-#projects li {
+.project-data li {
   margin-bottom: 15px;
 }
 
-#projects a {
+.project-data a {
   color: #80597c;
   font-weight: bold;
   text-decoration: none;
