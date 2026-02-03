@@ -1,1 +1,124 @@
-
+  
+  @media (max-width: 1024px) {
+  
+  #menu li {
+  display: block;
+  margin: 10px 0;
+  }
+  
+  #education {
+  flex-direction: column;
+  gap: 20px;
+  }
+  
+  #summary {
+  width: 90%;
+  padding: 15px;
+  }
+  
+  #edu {
+  width: 90%;
+  padding: 15px;
+  }
+  
+  .work-data {
+  width: 90%;
+  padding: 15px;
+  }
+  
+  .interests-data {
+  width: 90%;
+  padding: 15px;
+  }
+  
+  .web-data {
+  width: 90%;
+  padding: 15px;
+  }
+  
+  .project-data {
+  width: 90%;
+  padding: 15px;
+  }
+  
+  .feedback-data {
+  width: 90%;
+  padding: 15px;
+  }
+  
+  #skills table {
+  width: 90%;
+  }
+  
+  .fav-item {
+  flex-direction: column;
+  width: 90%;
+  text-align: center;
+  }
+  
+  .fav-item p {
+  width: 100%;
+  }
+  
+  .fav-item iframe {
+  width: 100%;
+  }
+  
+  h2 {
+  font-size: 24px;
+  }
+  }
+  
+  @media (max-width: 600px) {
+  
+  #menu li {
+  font-size: 16px;
+  }
+  
+  #skills th {
+  font-size: 14px;
+  padding: 6px;
+  }
+  
+  #skills td {
+  font-size: 14px;
+  padding: 6px;
+  }
+  
+  .about-data {
+  padding: 10px;
+  }
+  
+  .work-data {
+  padding: 10px;
+  }
+  
+  .interests-data {
+  padding: 10px;
+  }
+  
+  .web-data {
+  padding: 10px;
+  }
+  
+  .project-data {
+  padding: 10px;
+  }
+  
+  .feedback-data {
+  padding: 10px;
+  }
+  
+  .fav-item p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  }
+  
+  .fav-item iframe {
+  height: 200px;
+  }
+  
+  h2 {
+  font-size: 20px;
+  }
+  }
