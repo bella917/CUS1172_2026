@@ -58,6 +58,10 @@
       margin: 10px auto 0;
       border-radius: 8px;
       }
+
+      span {
+        font-weight: bold;
+      }
 /*-----------------------------------------*/
 
       #education {
@@ -293,3 +297,21 @@ background-color: #A9A9A9;
 font-family: inherit;
 cursor: pointer;
 }
+
+form {
+  margin-top: 15px;
+}
+/* ----------------------- */
+
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+
+  #menu, iframe {
+    display: none;
+  }
+
+
+
