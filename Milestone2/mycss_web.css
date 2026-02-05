@@ -66,7 +66,7 @@
 
       #education {
       display: flex;       
-      gap: 30px;
+      margin: 30px;
       max-width: 100%;
     margin: 40px auto; 
       flex-wrap: wrap;     
@@ -188,7 +188,7 @@
       display: flex;
       margin: 0 auto 30px auto;
       align-items: center;
-      gap: 25px;
+      margin: 25px;
       padding: 20px;
       background-color: #8c748a;
       border-radius: 12px;
