@@ -1,0 +1,18 @@
+#menu {
+            list-style-type: none;
+            padding: 20px;
+            margin: 0;
+            text-align:center;
+      }
+      
+      #menu li {
+            margin-right: 30px;
+            border:none;
+      }
+      
+      #menu li a {
+            text-decoration: none;
+            color: #b1b2b5;
+            font-size:20px;
+            font-family:"Garamond","Georgia","Times New Roman";
+      }
