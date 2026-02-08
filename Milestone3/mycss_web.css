@@ -21,6 +21,10 @@
   color: #343a40;
 }
 
+b {
+font-family: "Garamond", "Georgia", "Times New Roman";
+}
+
 #education .col-md-5 {
   background-color: #343a40;
   color: white;
