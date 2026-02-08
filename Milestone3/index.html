@@ -16,7 +16,7 @@
     
   </head>
   <body>
-    <h1 style="text-align:center;color:#343a40;"> <strong>Welcome to my Page!</strong></h1> 
+    <h1 style="text-align:center; color:#343a40;font-family: 'Garamond', 'Georgia', 'Times New Roman'"> <strong>Welcome to my Page!</strong></h1> 
 <hr/>
 
     <div class="container-fluid">
@@ -264,26 +264,42 @@
   </div>
 </div>
 
-    <div id="feedback">
-      <h2>Feedback</h2>
-          
-      
-      <div class="feedback-data">
-        <form>
-        <p>Did you enjoy your Website Experience?</p>
-            <input type="radio" id="yes" name="enjoy" value="yes">
-            <label for="yes">Yes</label><br>
+ <div id="feedback" class="container my-5">
+  <div class="card shadow-sm">
+    <div class="card-body">
 
-            <input type="radio" id="no" name="enjoy" value="no">
-            <label for="no">No</label><br><br>
+      <h2 class="card-title mb-3">Feedback</h2>
 
-        <input type="submit" value="Submit">
+      <form>
+        <p class="fw-semibold">Did you enjoy your Website Experience?</p>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="enjoy" id="yes" value="yes">
+          <label class="form-check-label" for="yes">
+            Yes
+          </label>
+        </div>
+
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="radio" name="enjoy" id="no" value="no">
+          <label class="form-check-label" for="no">
+            No
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          Submit
+        </button>
       </form>
-        <img src="https://i.etsystatic.com/20553578/r/il/70f1ba/3258604881/il_fullxfull.3258604881_7i19.jpg" alt="smiley face"  width="50" height="50"/>
+
+      <div class="mt-4 text-center">
+        <img src="https://i.etsystatic.com/20553578/r/il/70f1ba/3258604881/il_fullxfull.3258604881_7i19.jpg"  alt="smiley face" class="img-fluid" width="50" height="50">
       </div>
 
-      
     </div>
+  </div>
+</div>
+
     
   </body>
   
