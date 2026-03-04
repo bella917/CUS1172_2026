@@ -8,10 +8,10 @@ document.querySelector("#task-form").onsubmit = function () {
   let task_title = document.querySelector("#task-title").value;
 
   let task = {
-    "task-id": taskarray.length + 1,
-    "task-name": task_title,
-    "task-priority": "low",
-    "status": "pending"
+     "task-id": taskarray.length + 1,
+    "task-name": task_name,
+    "task-priority": priority,
+    "status": task_status
 };
 
 
