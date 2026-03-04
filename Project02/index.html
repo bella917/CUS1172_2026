@@ -17,6 +17,17 @@
 
   <form id="task-form">
     <input id="task-title" type="text" >
+
+      <label for="task-priority">Priority:</label>
+      <select id="task-priority">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+  </select>
+
+    <label>Status:</label>
+    <input type="radio" name="task-status" value="pending"> Pending
+    <input type="radio" name="task-status" value="completed"> Completed
     <button type="submit">Add Task</button>
 
   </form>
