@@ -6,13 +6,27 @@ let taskarray = [];
 document.querySelector("#task-form").onsubmit = function () {
 
   let task_title = document.querySelector("#task-title").value;
+  let task_name = document.querySelector("#task-title").value;
+  let priority = document.querySelector("#task-priority").value;
 
+
+  let status_radios = document.getElementsByName("task-status");
+  let task_status;
+  for (let i = 0; i < status_radios.length; i++) {
+      if (status_radios[i].checked) {
+          task_status = status_radios[i].value;
+          break;
+      }
+  }
+  
   let task = {
      "task-id": taskarray.length + 1,
     "task-name": task_name,
     "task-priority": priority,
     "status": task_status
 };
+
+ 
 
 
   taskarray.push(task);
