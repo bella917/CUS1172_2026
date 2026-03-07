@@ -1,1 +1,6 @@
-
+h1{
+  font-family: "Lucida Handwriting", "Times New Roman", "Arial";
+  text-decoration-line: underline;
+  text-decoration-style: wavy;  
+  text-align: center;
+}
