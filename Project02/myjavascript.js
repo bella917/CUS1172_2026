@@ -44,6 +44,7 @@ document.querySelector("#task-form").onsubmit = function () {
   completebutt.onclick = function () {
     task["status"] = "completed";
     li.style.color = "green";
+    li.style.textDecoration = 'line-through';
     console.log(taskarray);
         };
   
