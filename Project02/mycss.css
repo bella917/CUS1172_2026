@@ -6,6 +6,11 @@ h1{
   font-weight: bold;
 }
 
+#task-form{
+margin-bottom: 30px;
+}
+  
+
 li{
 list-style-type: circle;
 font-family: "Garamond", "Times New Roman", "Arial";
