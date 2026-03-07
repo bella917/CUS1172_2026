@@ -6,6 +6,12 @@ h1{
   font-weight: bold;
 }
 
+li{
+list-style-type: circle;
+font-family: "Garamond", "Times New Roman", "Arial";
+border-bottom: 1px solid; 
+}
+
 .LEFTSIDE{
   background-color:#A0D585;
  
