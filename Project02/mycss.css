@@ -25,7 +25,17 @@ html {
   margin: 0;    
 }
 
+
 body {
   height: 100%;  
   margin: 0;  
+}
+
+
+.container-fluid {
+  height: 100%;  
+}
+
+.row {
+  height: 100%;  
 }
