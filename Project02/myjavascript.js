@@ -32,8 +32,12 @@ document.querySelector("#task-form").onsubmit = function () {
   taskarray.push(task);
   console.log(taskarray);
 
+  
   let li = document.createElement("li");
-  li.innerHTML = task["task-name"];
+  li.innerHTML =
+  task["task-name"] +
+  " | Priority: " + task["task-priority"] +
+  " | Status: " + task["status"];
 
 
   let completebutt = document.createElement("button");
