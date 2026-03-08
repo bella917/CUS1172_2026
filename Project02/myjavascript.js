@@ -42,11 +42,18 @@ document.querySelector("#task-form").onsubmit = function () {
   completebutt.style.marginLeft = "10px";
 
   completebutt.onclick = function () {
-    task["status"] = "completed";
+
+    for (let idx = 0; idx < taskarray.length; idx++) {
+        if (taskarray[idx]["task-id"] == task["task-id"]) {
+            taskarray[idx]["status"] = "completed";
+        }
+    }
+
     li.style.color = "green";
-    li.style.textDecoration = 'line-through';
+    li.style.textDecoration = "line-through";
+
     console.log(taskarray);
-        };
+};
   
   li.appendChild(completebutt);
 
@@ -55,16 +62,17 @@ document.querySelector("#task-form").onsubmit = function () {
         removebutt.type = "button";
         removebutt.style.marginLeft = "5px";
 
-        removebutt.onclick = function () {
-            for (let i = 0; i < taskarray.length; i++) {
-                if (taskarray[i]["task-id"] === task["task-id"]) {
-                    taskarray.splice(i, 1);
-                    break;
-                }
-            }
-
-            li.remove();
-            console.log(taskarray); };
+      removebutt.onclick = function () {
+      
+          for (let i = 0; i < taskarray.length; i++) {
+              if (taskarray[i]["task-id"] == task["task-id"]) {
+                  taskarray.splice(i, 1);
+              }
+          }
+      
+          li.remove();
+          console.log(taskarray);
+      };
 
         li.appendChild(removebutt);
 
