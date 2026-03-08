@@ -84,7 +84,6 @@ document.querySelector("#task-form").onsubmit = function () {
   }
  
      
-};
 document.querySelector("#tasklist").appendChild(li);
 return false;
   
