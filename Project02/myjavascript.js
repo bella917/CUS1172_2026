@@ -69,8 +69,11 @@ document.querySelector("#task-form").onsubmit = function () {
         li.appendChild(removebutt);
 
 
-  li.onclick = function (event) {
-    console.log(event.target);
+  li.onclick = Myhandler;
+  
+  function Myhandler(event){
+      console.log(event.target);
+  }
  
      
 };
